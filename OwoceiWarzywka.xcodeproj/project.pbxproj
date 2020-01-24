@@ -13,7 +13,6 @@
 		7AC057D223D908F90071771A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC057D023D908F90071771A /* Main.storyboard */; };
 		7AC057D423D908FD0071771A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC057D323D908FD0071771A /* Assets.xcassets */; };
 		7AC057D723D908FD0071771A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC057D523D908FD0071771A /* LaunchScreen.storyboard */; };
-		7AC7CC4D23DA56520026C13F /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC7CC4C23DA56520026C13F /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		7AC057D323D908FD0071771A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AC057D623D908FD0071771A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AC057D823D908FD0071771A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AC7CC4C23DA56520026C13F /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,6 @@
 				7AC057CC23D908F90071771A /* FirstViewController.swift */,
 				7AC057CE23D908F90071771A /* SecondViewController.swift */,
 				7AC057D023D908F90071771A /* Main.storyboard */,
-				7AC7CC4C23DA56520026C13F /* TaskCell.swift */,
 				7AC057D323D908FD0071771A /* Assets.xcassets */,
 				7AC057D523D908FD0071771A /* LaunchScreen.storyboard */,
 				7AC057D823D908FD0071771A /* Info.plist */,
@@ -144,7 +141,6 @@
 				7AC057CF23D908F90071771A /* SecondViewController.swift in Sources */,
 				7AC057CB23D908F90071771A /* AppDelegate.swift in Sources */,
 				7AC057CD23D908F90071771A /* FirstViewController.swift in Sources */,
-				7AC7CC4D23DA56520026C13F /* TaskCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
