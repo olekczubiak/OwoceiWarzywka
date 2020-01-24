@@ -38,7 +38,7 @@ class FirstViewController: UIViewController {
                             else {
                                 if let num = Double(resault) {
                                     let output = num * Double(item2)
-                                    ObliczoneKalorie.text = String(output) + " kcal"
+                                    ObliczoneKalorie.text = String(output/100) + " kcal"
                                 }
                             }
                         }

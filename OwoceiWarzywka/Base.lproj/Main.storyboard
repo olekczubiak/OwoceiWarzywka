@@ -290,7 +290,7 @@
             </objects>
             <point key="canvasLocation" x="-825" y="117"/>
         </scene>
-        <!--Lista Poduktów:-->
+        <!--Lista Produktów:-->
         <scene sceneID="ZPH-Jc-e88">
             <objects>
                 <viewController id="L09-Yf-kfs" customClass="ViewController" customModule="todoList" customModuleProvider="target" sceneMemberID="viewController">
@@ -348,13 +348,7 @@
                         <viewLayoutGuide key="safeArea" id="LLn-4m-aWT"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Lista produktów" image="second" id="JZe-u2-ftM"/>
-                    <navigationItem key="navigationItem" title="Lista Poduktów:" id="2sA-RH-Rdg">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="6F1-xk-cOP">
-                            <connections>
-                                <segue destination="kIe-UU-rUB" kind="show" id="USG-15-PXZ"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Lista Produktów:" id="2sA-RH-Rdg"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tableView" destination="Gc5-E3-slr" id="w62-c6-vX8"/>
@@ -362,7 +356,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hhG-x9-yLB" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-38" y="681"/>
+            <point key="canvasLocation" x="-826" y="869"/>
         </scene>
         <!--Add Task Controller-->
         <scene sceneID="OuR-lv-WO6">
@@ -372,13 +366,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a task below" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lp1-gb-akJ">
-                                <rect key="frame" x="122" y="155" width="131" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dodaj co chcesz kupić?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lp1-gb-akJ">
+                                <rect key="frame" x="97" y="59" width="181" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a task name..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qSS-LY-Hat">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Co kupiłeś" borderStyle="roundedRect" placeholder="Enter a task name..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qSS-LY-Hat">
                                 <rect key="frame" x="34" y="232" width="308" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
@@ -410,7 +404,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cz1-En-T3l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="815" y="1125"/>
+            <point key="canvasLocation" x="127" y="927"/>
         </scene>
     </scenes>
     <resources>
