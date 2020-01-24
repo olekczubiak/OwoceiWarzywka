@@ -17,8 +17,8 @@ class FirstViewController: UIViewController {
     
     
     
-    let produkty = ["jablko","ser","chleb"]
-    let produktyKcal = [5,10,15]
+    let produkty = ["banan","twaróg","Masło orzechowe","mleko","płatki owsiane","jajko","awokado","humus","jogurt","jabłko","czakolada","miód","bułka","kurczak"]
+    let produktyKcal = [97,115,611,44,363,140,169,280,124,50,551,319,269,99]
     @IBAction func Obliczenie(_ sender: Any) {
         var x = 0
         var y = 0
